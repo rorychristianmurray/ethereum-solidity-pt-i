@@ -15,9 +15,16 @@ contract Inbox {
     }
     
     // getters and setters
-    
     function setMessage(string newMessage) public {
         message = newMessage;
+    }
+
+    function doMath (int a, int b) public {
+        a + b;
+        b - a;
+        a * b;
+        a == 0;
+
     }
     
 }
