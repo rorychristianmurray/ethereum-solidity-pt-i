@@ -20,11 +20,10 @@ contract Inbox {
     }
 
     function doMath (int a, int b) public {
-        a + b;
-        b - a;
-        a * b;
-        a == 0;
-
+        a + b; // 3 gas
+        b - a; // 3 gas
+        a * b; // 5 gas
+        a == 0; // 3 gas
     }
     
 }
