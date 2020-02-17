@@ -13,10 +13,10 @@ contract Inbox {
         
     }
     
-    // getters and setterws
+    // getters and setters
     
-    function setMessage(string newMassage) public {
-        message = newMassage;
+    function setMessage(string newMessage) public {
+        message = newMessage;
     }
     
     function getMessage() public view returns (string) {
